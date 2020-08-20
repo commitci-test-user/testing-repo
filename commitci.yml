@@ -1,9 +1,16 @@
+
 cloud:
-  aws:
-    roleArn: arn:aws:iam::488998811948:role/gitcolon_role
+ aws:
+            roleArn: arn:aws:iam::080623722499:role/sourcerun
     region: us-east-1
-pull_request: 
-  base_branch: 
-    master: 
-      automated_build: true
-                                            conditional_skip_keyword_in_title: '[SKIP]'
+on:
+  pull_request:
+   opened:
+     base:
+      master:
+       build:
+        automation: false
+        concurrent: false sdfsdf
+        comment:
+         start: '/build start'
+         stop: '/build stop'
