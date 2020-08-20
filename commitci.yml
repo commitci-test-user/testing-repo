@@ -6,4 +6,4 @@ pull_request:
   base_branch: 
     master: 
       automated_build: true
-      conditional_skip_keyword_in_title: '[SKIP]'
+                                            conditional_skip_keyword_in_title: '[SKIP]'
