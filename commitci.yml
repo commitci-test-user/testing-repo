@@ -1,17 +1,4 @@
-
-
 cloud:
- aws:
-            roleArn: arn:aws:iam::080623722499:role/sourcerun
-    region: us-east-1
-on:
-  pull_request:
-   opened:
-     base:
-      master:
-       build:
-        automation: false
-        concurrent: false sdfsdf
-        comment:
-         start: '/build start'
-         stop: '/build stop'
+ aws: # currently supporting aws cloud
+  roleArn: arn:aws:iam::080623722499:role/sourcerun # an aws role for external identity
+  region: us-east-1 # aws region
