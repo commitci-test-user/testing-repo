@@ -1,4 +1,0 @@
-cloud:
- aws: # currently supporting aws cloud
-  roleArn: arn:aws:iam::080623722499:role/sourcerun # an aws role for external identity
-  region: us-east-1 # aws region
