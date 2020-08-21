@@ -1,4 +1,3 @@
->
 cloud:
   aws: # currently supporting aws cloud
     roleArn: <past commitci aws role arn here> # an aws role for external identity
