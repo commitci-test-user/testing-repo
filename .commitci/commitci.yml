@@ -1,0 +1,4 @@
+cloud:
+  aws: # currently supporting aws cloud
+    roleArn: <past commitci aws role arn here> # an aws role for external identity
+    region: us-east-1 # aws region
