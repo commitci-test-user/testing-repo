@@ -1,0 +1,4 @@
+cloud:
+  aws: # currently supporting aws cloud
+    roleArn: arn:aws:iam::080623722499:role/commitci # arn of commitci role
+    region: us-east-1 # aws region
